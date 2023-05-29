@@ -1,0 +1,25 @@
+<form
+  role="form"
+  enctype="multipart/form-data"
+  action="/action/file"
+  method="POST"
+>
+  <!-- You can add extra form fields here -->
+
+  <input hidden id="file" name="file" />
+  <input name="name" placeholder="name" />
+  <input name="test" placeholder="test" />
+
+  <!-- You can add extra form fields here -->
+
+  <div class="dropzone dropzone-file-area" id="fileUpload">
+    <div class="dz-default dz-message">
+      <h3 class="sbold">Drop files here to upload</h3>
+      <span>You can also click to open file browser</span>
+    </div>
+  </div>
+
+  <!-- You can add extra form fields here -->
+
+  <button type="submit">Submit</button>
+</form>
